@@ -1,0 +1,61 @@
+= ..rreellooaadd!!
+
+(from gem i18n-1.12.0)
+=== IImmpplleemmeennttaattiioonn  ffrroomm  BBaassee
+------------------------------------------------------------------------
+  reload!()
+
+------------------------------------------------------------------------
+
+
+(from gem i18n-1.12.0)
+=== IImmpplleemmeennttaattiioonn  ffrroomm  IImmpplleemmeennttaattiioonn
+------------------------------------------------------------------------
+  reload!()
+
+------------------------------------------------------------------------
+
+
+(from gem i18n-1.12.0)
+=== IImmpplleemmeennttaattiioonn  ffrroomm  LLaazzyyLLooaaddaabbllee
+------------------------------------------------------------------------
+  reload!()
+
+------------------------------------------------------------------------
+
+Clean up translations and uninitialize all locales.
+
+
+(from gem i18n-1.12.0)
+=== IImmpplleemmeennttaattiioonn  ffrroomm  MMeemmooiizzee
+------------------------------------------------------------------------
+  reload!()
+
+------------------------------------------------------------------------
+
+
+(from gem i18n-1.12.0)
+=== IImmpplleemmeennttaattiioonn  ffrroomm  IImmpplleemmeennttaattiioonn
+------------------------------------------------------------------------
+  reload!()
+
+------------------------------------------------------------------------
+
+==== ((UUsseess  ssuuppeerrccllaassss  mmeetthhoodd  RRDDoocc::::AAnnyyMMeetthhoodd::  II1188nn::::BBaacckkeenndd::::BBaassee##rreellooaadd!!))
+------------------------------------------------------------------------
+
+Clean up translations hash and set initialized to false on reload!
+
+
+(from gem i18n-1.12.0)
+=== IImmpplleemmeennttaattiioonn  ffrroomm  BBaassee
+------------------------------------------------------------------------
+  reload!()
+
+------------------------------------------------------------------------
+
+Tells the backend to reload translations. Used in situations like the
+Rails development environment. Backends can implement whatever strategy
+is useful.
+
+
