@@ -1,6 +1,13 @@
 class ArticlesController < ApplicationController
     def test
     end
+    def destroy
+      @article = Article.find(params[:id])
+      @article.destroy
+      flash[:succes] = "Article was  destroyed"
+       redirect_to articles_path
+    end
+
     def show
     # byebug
      @article = Article.find(params[:id])
@@ -35,6 +42,9 @@ class ArticlesController < ApplicationController
         render 'edit'
       end
     end
+
+
+  
 =begin  
     # @article = Article.new(params.require(:article).permit(:title, :description))  
     # if  @article.save

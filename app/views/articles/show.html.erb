@@ -6,3 +6,6 @@
                                     
 <p><%=@article.title%></p>         
 <p><%=@article.description%></p>
+<%= link_to 'Edit', edit_article_path(@article) , data: { confirm: "Are you sure?" }%> | 
+<%= link_to 'Delelte' ,article_path(@article),data: {"turbo_method": :delete}%> | 
+<%= link_to 'articles listing ', articles_path%>
