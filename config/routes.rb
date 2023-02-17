@@ -7,7 +7,7 @@ Rails.application.routes.draw do
    get 'about', to: 'pages#about'
   # get 'test', to: 'articles#test'
   # resources :articles , only: [ :index, :new, :create,:update,:edit,:test]# articles/1
-   delete 'articles/:id' , to: 'articles#destroy'
+  #  delete 'articles/:id' , to: 'articles#destroy'
   # delete 'articles/:id/delete' => 'articles#destroy', as: 'articles_delete'
   # get '/articles/:id/delete' => 'articles#destroy'
   resources :articles
